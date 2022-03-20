@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web3Blog", "Web3Blog\Web3Blog.csproj", "{8BC8AF7F-C775-4A78-9151-9AC2758D287A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solidity", "Solidity", "{6D3420BB-C96D-48A3-948F-9292618E0A5F}"
+	ProjectSection(SolutionItems) = preProject
+		Solidity\LotteryBlog.sol = Solidity\LotteryBlog.sol
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extra", "Extra", "{A6F7A24C-E1DC-4FD7-B850-BD9151BCB75E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BC8AF7F-C775-4A78-9151-9AC2758D287A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC8AF7F-C775-4A78-9151-9AC2758D287A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC8AF7F-C775-4A78-9151-9AC2758D287A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC8AF7F-C775-4A78-9151-9AC2758D287A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {873EF478-218E-40D8-8698-B57B093E3441}
+	EndGlobalSection
+EndGlobal
